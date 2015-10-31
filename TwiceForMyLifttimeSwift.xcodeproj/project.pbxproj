@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E64DA04C1BE569FF002E8F05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA04B1BE569FF002E8F05 /* main.m */; };
+		E64DA04F1BE569FF002E8F05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA04E1BE569FF002E8F05 /* AppDelegate.m */; };
+		E64DA0521BE569FF002E8F05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA0511BE569FF002E8F05 /* ViewController.m */; };
+		E64DA0551BE569FF002E8F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64DA0531BE569FF002E8F05 /* Main.storyboard */; };
+		E64DA0571BE569FF002E8F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E64DA0561BE569FF002E8F05 /* Assets.xcassets */; };
+		E64DA05A1BE569FF002E8F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64DA0581BE569FF002E8F05 /* LaunchScreen.storyboard */; };
+		E64DA0651BE569FF002E8F05 /* TwiceForMyLifttimeSwiftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA0641BE569FF002E8F05 /* TwiceForMyLifttimeSwiftTests.m */; };
+		E64DA0701BE569FF002E8F05 /* TwiceForMyLifttimeSwiftUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA06F1BE569FF002E8F05 /* TwiceForMyLifttimeSwiftUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E64DA0611BE569FF002E8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E64DA03F1BE569FF002E8F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E64DA0461BE569FF002E8F05;
+			remoteInfo = TwiceForMyLifttimeSwift;
+		};
+		E64DA06C1BE569FF002E8F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E64DA03F1BE569FF002E8F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E64DA0461BE569FF002E8F05;
+			remoteInfo = TwiceForMyLifttimeSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E64DA0471BE569FF002E8F05 /* TwiceForMyLifttimeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwiceForMyLifttimeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64DA04B1BE569FF002E8F05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E64DA04D1BE569FF002E8F05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E64DA04E1BE569FF002E8F05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E64DA0501BE569FF002E8F05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E64DA0511BE569FF002E8F05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E64DA0541BE569FF002E8F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E64DA0561BE569FF002E8F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E64DA0591BE569FF002E8F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E64DA05B1BE569FF002E8F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E64DA0601BE569FF002E8F05 /* TwiceForMyLifttimeSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwiceForMyLifttimeSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64DA0641BE569FF002E8F05 /* TwiceForMyLifttimeSwiftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwiceForMyLifttimeSwiftTests.m; sourceTree = "<group>"; };
+		E64DA0661BE569FF002E8F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E64DA06B1BE569FF002E8F05 /* TwiceForMyLifttimeSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwiceForMyLifttimeSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64DA06F1BE569FF002E8F05 /* TwiceForMyLifttimeSwiftUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwiceForMyLifttimeSwiftUITests.m; sourceTree = "<group>"; };
+		E64DA0711BE569FF002E8F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E64DA0441BE569FF002E8F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64DA05D1BE569FF002E8F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64DA0681BE569FF002E8F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E64DA03E1BE569FF002E8F05 = {
+			isa = PBXGroup;
+			children = (
+				E64DA0491BE569FF002E8F05 /* TwiceForMyLifttimeSwift */,
+				E64DA0631BE569FF002E8F05 /* TwiceForMyLifttimeSwiftTests */,
+				E64DA06E1BE569FF002E8F05 /* TwiceForMyLifttimeSwiftUITests */,
+				E64DA0481BE569FF002E8F05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E64DA0481BE569FF002E8F05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E64DA0471BE569FF002E8F05 /* TwiceForMyLifttimeSwift.app */,
+				E64DA0601BE569FF002E8F05 /* TwiceForMyLifttimeSwiftTests.xctest */,
+				E64DA06B1BE569FF002E8F05 /* TwiceForMyLifttimeSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E64DA0491BE569FF002E8F05 /* TwiceForMyLifttimeSwift */ = {
+			isa = PBXGroup;
+			children = (
+				E64DA04D1BE569FF002E8F05 /* AppDelegate.h */,
+				E64DA04E1BE569FF002E8F05 /* AppDelegate.m */,
+				E64DA0501BE569FF002E8F05 /* ViewController.h */,
+				E64DA0511BE569FF002E8F05 /* ViewController.m */,
+				E64DA0531BE569FF002E8F05 /* Main.storyboard */,
+				E64DA0561BE569FF002E8F05 /* Assets.xcassets */,
+				E64DA0581BE569FF002E8F05 /* LaunchScreen.storyboard */,
+				E64DA05B1BE569FF002E8F05 /* Info.plist */,
+				E64DA04A1BE569FF002E8F05 /* Supporting Files */,
+			);
+			path = TwiceForMyLifttimeSwift;
+			sourceTree = "<group>";
+		};
+		E64DA04A1BE569FF002E8F05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E64DA04B1BE569FF002E8F05 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E64DA0631BE569FF002E8F05 /* TwiceForMyLifttimeSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				E64DA0641BE569FF002E8F05 /* TwiceForMyLifttimeSwiftTests.m */,
+				E64DA0661BE569FF002E8F05 /* Info.plist */,
+			);
+			path = TwiceForMyLifttimeSwiftTests;
+			sourceTree = "<group>";
+		};
+		E64DA06E1BE569FF002E8F05 /* TwiceForMyLifttimeSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E64DA06F1BE569FF002E8F05 /* TwiceForMyLifttimeSwiftUITests.m */,
+				E64DA0711BE569FF002E8F05 /* Info.plist */,
+			);
+			path = TwiceForMyLifttimeSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E64DA0461BE569FF002E8F05 /* TwiceForMyLifttimeSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E64DA0741BE569FF002E8F05 /* Build configuration list for PBXNativeTarget "TwiceForMyLifttimeSwift" */;
+			buildPhases = (
+				E64DA0431BE569FF002E8F05 /* Sources */,
+				E64DA0441BE569FF002E8F05 /* Frameworks */,
+				E64DA0451BE569FF002E8F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwiceForMyLifttimeSwift;
+			productName = TwiceForMyLifttimeSwift;
+			productReference = E64DA0471BE569FF002E8F05 /* TwiceForMyLifttimeSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E64DA05F1BE569FF002E8F05 /* TwiceForMyLifttimeSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E64DA0771BE569FF002E8F05 /* Build configuration list for PBXNativeTarget "TwiceForMyLifttimeSwiftTests" */;
+			buildPhases = (
+				E64DA05C1BE569FF002E8F05 /* Sources */,
+				E64DA05D1BE569FF002E8F05 /* Frameworks */,
+				E64DA05E1BE569FF002E8F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E64DA0621BE569FF002E8F05 /* PBXTargetDependency */,
+			);
+			name = TwiceForMyLifttimeSwiftTests;
+			productName = TwiceForMyLifttimeSwiftTests;
+			productReference = E64DA0601BE569FF002E8F05 /* TwiceForMyLifttimeSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E64DA06A1BE569FF002E8F05 /* TwiceForMyLifttimeSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E64DA07A1BE569FF002E8F05 /* Build configuration list for PBXNativeTarget "TwiceForMyLifttimeSwiftUITests" */;
+			buildPhases = (
+				E64DA0671BE569FF002E8F05 /* Sources */,
+				E64DA0681BE569FF002E8F05 /* Frameworks */,
+				E64DA0691BE569FF002E8F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E64DA06D1BE569FF002E8F05 /* PBXTargetDependency */,
+			);
+			name = TwiceForMyLifttimeSwiftUITests;
+			productName = TwiceForMyLifttimeSwiftUITests;
+			productReference = E64DA06B1BE569FF002E8F05 /* TwiceForMyLifttimeSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E64DA03F1BE569FF002E8F05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Planhola.com;
+				TargetAttributes = {
+					E64DA0461BE569FF002E8F05 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					E64DA05F1BE569FF002E8F05 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = E64DA0461BE569FF002E8F05;
+					};
+					E64DA06A1BE569FF002E8F05 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = E64DA0461BE569FF002E8F05;
+					};
+				};
+			};
+			buildConfigurationList = E64DA0421BE569FF002E8F05 /* Build configuration list for PBXProject "TwiceForMyLifttimeSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E64DA03E1BE569FF002E8F05;
+			productRefGroup = E64DA0481BE569FF002E8F05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E64DA0461BE569FF002E8F05 /* TwiceForMyLifttimeSwift */,
+				E64DA05F1BE569FF002E8F05 /* TwiceForMyLifttimeSwiftTests */,
+				E64DA06A1BE569FF002E8F05 /* TwiceForMyLifttimeSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E64DA0451BE569FF002E8F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64DA05A1BE569FF002E8F05 /* LaunchScreen.storyboard in Resources */,
+				E64DA0571BE569FF002E8F05 /* Assets.xcassets in Resources */,
+				E64DA0551BE569FF002E8F05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64DA05E1BE569FF002E8F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64DA0691BE569FF002E8F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E64DA0431BE569FF002E8F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64DA0521BE569FF002E8F05 /* ViewController.m in Sources */,
+				E64DA04F1BE569FF002E8F05 /* AppDelegate.m in Sources */,
+				E64DA04C1BE569FF002E8F05 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64DA05C1BE569FF002E8F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64DA0651BE569FF002E8F05 /* TwiceForMyLifttimeSwiftTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64DA0671BE569FF002E8F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64DA0701BE569FF002E8F05 /* TwiceForMyLifttimeSwiftUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E64DA0621BE569FF002E8F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E64DA0461BE569FF002E8F05 /* TwiceForMyLifttimeSwift */;
+			targetProxy = E64DA0611BE569FF002E8F05 /* PBXContainerItemProxy */;
+		};
+		E64DA06D1BE569FF002E8F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E64DA0461BE569FF002E8F05 /* TwiceForMyLifttimeSwift */;
+			targetProxy = E64DA06C1BE569FF002E8F05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E64DA0531BE569FF002E8F05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E64DA0541BE569FF002E8F05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E64DA0581BE569FF002E8F05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E64DA0591BE569FF002E8F05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E64DA0721BE569FF002E8F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E64DA0731BE569FF002E8F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E64DA0751BE569FF002E8F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TwiceForMyLifttimeSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.TwiceForMyLifttimeSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E64DA0761BE569FF002E8F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TwiceForMyLifttimeSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.TwiceForMyLifttimeSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E64DA0781BE569FF002E8F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TwiceForMyLifttimeSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.TwiceForMyLifttimeSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwiceForMyLifttimeSwift.app/TwiceForMyLifttimeSwift";
+			};
+			name = Debug;
+		};
+		E64DA0791BE569FF002E8F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TwiceForMyLifttimeSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.TwiceForMyLifttimeSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwiceForMyLifttimeSwift.app/TwiceForMyLifttimeSwift";
+			};
+			name = Release;
+		};
+		E64DA07B1BE569FF002E8F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TwiceForMyLifttimeSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.TwiceForMyLifttimeSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TwiceForMyLifttimeSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E64DA07C1BE569FF002E8F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TwiceForMyLifttimeSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.TwiceForMyLifttimeSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TwiceForMyLifttimeSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E64DA0421BE569FF002E8F05 /* Build configuration list for PBXProject "TwiceForMyLifttimeSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E64DA0721BE569FF002E8F05 /* Debug */,
+				E64DA0731BE569FF002E8F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E64DA0741BE569FF002E8F05 /* Build configuration list for PBXNativeTarget "TwiceForMyLifttimeSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E64DA0751BE569FF002E8F05 /* Debug */,
+				E64DA0761BE569FF002E8F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E64DA0771BE569FF002E8F05 /* Build configuration list for PBXNativeTarget "TwiceForMyLifttimeSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E64DA0781BE569FF002E8F05 /* Debug */,
+				E64DA0791BE569FF002E8F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E64DA07A1BE569FF002E8F05 /* Build configuration list for PBXNativeTarget "TwiceForMyLifttimeSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E64DA07B1BE569FF002E8F05 /* Debug */,
+				E64DA07C1BE569FF002E8F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E64DA03F1BE569FF002E8F05 /* Project object */;
+}
